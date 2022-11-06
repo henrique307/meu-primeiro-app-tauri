@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000
+}
+
+.gradient{
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(#fff, #000);
+    height: 92vh;
+    width: 100%;
+}
+
+.test{
+    background-color: red;
+    height: 100rem;
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list-item {
+    list-style: none;
+    margin-left: 32px;
+}
+
+::-webkit-scrollbar{
+    
+}
